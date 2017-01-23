@@ -13,6 +13,7 @@ Based on this, users are able to invite trainers to a training session by clicki
 Event details can also be viewed, and events can be deleted through the Event Details page. Deleting an event removes the data from both Phyziq's database and a user's Google Calendar.
 
 ## Other Features
+* Materialize front-end framework.
 * Dynamic dropdown menu links and user profile pages (based on user settings & sessions).
 * Fuzzy Search for trainers by name or address using the search bar.
 * Search for trainers by "category" (i.e: Boxing, Crossfit, Cardio).
