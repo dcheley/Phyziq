@@ -1,24 +1,21 @@
-# README
+# Phyziq
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Final Bitmaker Project. Phyziq is a site which connects users to Personal Trainers in their city and allows them to book Training Sessions with each other.
 
-Things you may want to cover:
+## View the deployed version `http://phyziq.herokuapp.com`
 
-* Ruby version
+The key feature behind this Rails App is it's use of Google OAuth and Calendar API.
 
-* System dependencies
+Users login through their gmail accounts, then Phyziq checks over events on the user's primary Calendar to find available time slots over the next seven days. This information is displayed on a user's Public Profile page.
 
-* Configuration
+Based on this, users are able to invite trainers to a training session by clicking on an available time slot (which will appear as links) of a trainer's schedule. Doing so will create an event on both the user's and trainer's calendar, using the trainer's address as the event address.
 
-* Database creation
+Event details can also be viewed, and events can be deleted through the Event Details page. Deleting an event removes the data from both Phyziq's database and a user's Google Calendar.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Other Features
+* Dynamic dropdown menu links and user profile pages (based on user settings & sessions).
+* Fuzzy Search for trainers by name or address using the search bar.
+* Search for trainers by "category" (i.e: Boxing, Crossfit, Cardio).
+* Users can change their status as a trainer.
+* Trainer users can edit their training categories.
+* PostgreSQL database.
